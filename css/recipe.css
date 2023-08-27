@@ -1,7 +1,17 @@
 body {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.container.info {
+  width: 800px;
+}
+
+h1,
+h2 {
+  text-align: center;
 }
 
 h1 {
